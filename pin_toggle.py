@@ -2,7 +2,7 @@ import RPi.GPIO as GPIO
 import time
 
 # --- Setup ---
-RELAY_PIN = 17  # GPIO17 (Pin 11)
+RELAY_PIN = 23  # GPIO17 (Pin 11)
 GPIO.setmode(GPIO.BCM)      # Use Broadcom pin numbering
 GPIO.setup(RELAY_PIN, GPIO.OUT, initial=GPIO.LOW)
 
